@@ -46,7 +46,7 @@ return(
         <div className="container-list">
         <h1>To do list</h1>
         <ul>
-            <div className="container-list">
+            <div className="container">
             {list.map((list)=>
             <li className="list" key={list.id}>{list.nom}
             <img className='btn-del' onClick={()=>handleDelete(list)} src={trash} alt='trash'/></li>
