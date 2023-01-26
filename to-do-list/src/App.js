@@ -1,5 +1,5 @@
 import { useState,useEffect } from "react"
-import './app.scss'
+import './styles/app.scss'
 import Form from './components/Form'
 import Add from './components/Add'
 import Layout from "./components/Layout"
@@ -25,4 +25,5 @@ return(
   </Layout>
 )
 }
+
 
