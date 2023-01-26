@@ -10,12 +10,10 @@ export default function Todo(){
   useEffect(()=>{
       localStorage.setItem('list',JSON.stringify(list))
   })
-
 return(
   <Layout>
   <div className="container-todo">
       <div className="container-list">
-      <h1>To do list</h1>
       <ul>
          <Add list={list} setList={setList}/>
       </ul>
